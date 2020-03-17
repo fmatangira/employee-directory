@@ -1,12 +1,8 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.css';
-import './App.css';
-import Banner from './Components/Banner';
+import EmployeeContainier from '../src/Components/EmployeeContainer';
 
-function App() {
-  return (
-    <Banner />
-  )
+export default function App() {
+  
+  return <EmployeeContainier />
+  
 }
-
-export default App;

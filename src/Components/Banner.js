@@ -1,6 +1,6 @@
 import React from 'react';
-import Jumbotron from '../../node_modules/react-bootstrap/Jumbotron';
 import '../css/banner.css';
+import { Jumbotron } from '../../node_modules/reactstrap'
 
 
 export default function Banner() {
